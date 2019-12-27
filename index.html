@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PT. POU YUEN INDONESIA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+  <style type="text/css">
+  	
+  	 	.facebook,.facebook_box{margin:0 auto;width:100%}
+.facebook-resposive{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0}
+.facebook img{width:100%;height:auto;display:block;z-index:1}
+.facebook iframe{position:absolute;top:0;left:-2px;width:calc(100% + 4px);height:100%;z-index:3;}
+.facebook-resposive:after{content:"";cursor:pointer;margin:auto;width:80px;height:80px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M10,16.5L16,12L10,7.5V16.5Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-position:center;-webkit-background-size:111px 111px;background-size:111px 111px;position:absolute;top:0;bottom:0;left:0;right:0;cursor:pointer;transition:all .2s ease-out;z-index:2;display:inline-block!important;border-radius:100%;overflow:hidden}
+.facebook-resposive:before{content:"";cursor:pointer;margin:auto;width:80px;height:80px;background-color:#000;opacity:.3;position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;border-radius:100%}
+.facebook-resposive:hover:before{opacity:.7}
+@media screen and (max-width:960px){.facebook-resposive:after,.facebook-resposive:before{width:66px;height:66px;}
+.facebook-resposive:after{-webkit-background-size:92px 92px;background-size:92px 92px;}
+}
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h2>Hasil Scan Manual Cutting Nosew Real Team /2 Jam</h2>
+  <p>Note : Untuk update trakhir jam 17:00 ya,Hasil scan kita Update stiap 2 jam sekali dan Itu real team.</p> 
+</div>
+
+<div class="facebook_box">
+<div class="facebook" onclick="videoPlay(this)">
+<div class="facebook-resposive">
+
+    <iframe src="https://docs.google.com/spreadsheets/d/1p-l9YiNfhUgsPbQJHyLpEWauSSQ4xzcBfrsK0i08Gu0/edit#gid=0" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media; autoplay" allowFullScreen="true" data-autoplay="true"></iframe>
+</div>
+</div>
+</div>
+ 
+
+<script>
+//<![CDATA[
+function videoPlay(n){return n.innerHTML=n.innerHTML.replace("<!--","").replace("-->",""),n.onclick=null,!1}
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+//]]>
+</script>
+
+</body>
+</html>
